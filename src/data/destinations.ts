@@ -24,7 +24,7 @@ export const destinations: Destination[] = [
     {
         id: "paris",
         coordinates: { lat: 48.8566, lng: 2.3522 },
-        image: "https://images.unsplash.com/photo-1499856871940-0627460af528?auto=format&fit=crop&w=1600&q=80",
+        image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80",
         en: {
             name: "Paris, France",
             subtitle: "Art, cafés, fashion, and the world’s most iconic cityscape.",
@@ -98,7 +98,7 @@ export const destinations: Destination[] = [
     {
         id: "bangkok",
         coordinates: { lat: 13.7563, lng: 100.5018 },
-        image: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1600&q=80",
+        image: "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1600&q=80",
         en: {
             name: "Bangkok, Thailand",
             subtitle: "Temples, street food, nightlife, and unmatched travel value.",
@@ -172,7 +172,7 @@ export const destinations: Destination[] = [
     {
         id: "istanbul",
         coordinates: { lat: 41.0082, lng: 28.9784 },
-        image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1600&q=80",
+        image: "https://images.unsplash.com/photo-1541432906375-f44ac7129608?auto=format&fit=crop&w=1600&q=80",
         en: {
             name: "Istanbul, Türkiye",
             subtitle: "The crossroads city—empires, bazaars, and skyline mosques.",
@@ -246,7 +246,7 @@ export const destinations: Destination[] = [
     {
         id: "tokyo",
         coordinates: { lat: 35.6762, lng: 139.6503 },
-        image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1600&q=80",
+        image: "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=1600&q=80",
         en: {
             name: "Tokyo, Japan",
             subtitle: "Hyper-modern meets centuries-old—food, design, and seasonal beauty.",
@@ -283,7 +283,7 @@ export const destinations: Destination[] = [
     {
         id: "machu-picchu",
         coordinates: { lat: -13.1631, lng: -72.545 },
-        image: "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1600&q=80",
+        image: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1600&q=80",
         en: {
             name: "Machu Picchu, Peru",
             subtitle: "High-Andes wonder: Inca engineering in cloud-forest drama.",

@@ -38,6 +38,9 @@ export const SlideView: React.FC<SlideViewProps> = ({
                     src={destination.image}
                     alt={content.name}
                     className="h-full w-full object-cover blur-sm brightness-50"
+                    onError={(e) => {
+                        (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1600&q=80"; // Fallback generic travel image
+                    }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent" />
             </div>
@@ -71,6 +74,9 @@ export const SlideView: React.FC<SlideViewProps> = ({
                             src={destination.image}
                             alt={content.name}
                             className="h-full w-full object-cover"
+                            onError={(e) => {
+                                (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1600&q=80";
+                            }}
                         />
                     </motion.div>
                 </div>
