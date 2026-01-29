@@ -46,7 +46,7 @@ export const SlideView: React.FC<SlideViewProps> = ({
             </div>
 
             {/* Main Content Container */}
-            <div className="relative z-10 grid h-full w-full max-w-7xl grid-cols-1 gap-8 p-6 md:grid-cols-2 lg:p-12">
+            <div className="relative z-10 grid h-full w-full max-w-7xl grid-cols-1 gap-4 overflow-y-auto p-4 md:grid-cols-2 md:gap-8 md:overflow-visible md:p-12">
                 {/* Left Column: Image & Title */}
                 <div className="flex flex-col justify-center space-y-6">
                     <motion.div

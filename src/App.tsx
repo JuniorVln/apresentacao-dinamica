@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-black text-white">
+    <div className="relative h-[100dvh] w-full overflow-hidden bg-black text-white">
       {/* 3D Globe View - Always rendered in background */}
       <WorldView
         destinations={destinations}
