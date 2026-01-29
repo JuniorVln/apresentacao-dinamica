@@ -16,6 +16,7 @@ export const WorldView: React.FC<WorldViewProps> = ({
     language,
 }) => {
     const globeRef = useRef<GlobeMethods | undefined>(undefined);
+    const [hoveredId, setHoveredId] = useState<string | null>(null);
     const [dimensions, setDimensions] = useState({ width: window.innerWidth, height: window.innerHeight });
 
     useEffect(() => {
